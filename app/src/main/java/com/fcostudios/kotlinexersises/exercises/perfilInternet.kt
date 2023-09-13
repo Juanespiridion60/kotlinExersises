@@ -15,7 +15,13 @@ class Person(val name: String, val age: Int, val hobby: String?, val referrer: P
         print("Likes to $hobby. ")
         if (referrer != null) println("Has a referrer name $referrer, who likes to $hobby \n")
         else println("Doesn't have a referrer.")
+        /*Una prueba para Kotlin*/
     }
+}
+
+
+fun hello(){
+    print("Bienevenido Git")
 }
 
 /*
